@@ -1,0 +1,78 @@
+body{
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    gap: 1%;
+
+}
+
+h1 {
+text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+image {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 30%;
+    width: 50%;
+}
+
+p {
+ text-align: justify;   
+}
+
+/*MODO LECTURA*/
+.lectura {
+    background-color: black;
+    color: white;
+}
+
+.lectura img {
+    display: none;
+}
+
+/*LISTA DE BOTONES*/
+
+.diadesuerte{
+    background-color: rgb(2, 52, 28);
+    height: 20em;
+}
+
+h2, h3 {
+    color: whitesmoke;
+    text-align: center;
+
+}
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*Ejercicio 3,4*/
+
+.container h2{
+    color: black;
+}
+
+.btns_adivina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
