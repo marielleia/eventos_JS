@@ -1,13 +1,13 @@
 let btnLectura = document.getElementById("lectura");
 let btnNormal = document.getElementById ("normal");
-let body = document.getElementById("cuerpo")
+let body = document.getElementById("cuerpo");
 
-btnLectura.onmouseover = ()=> {
+btnLectura.onclick = ()=> {
     body.classList="lectura";
     document.querySelector("image").classList= "lecturaImg"
 }
 
-btnNormal.onmouseover = ()=> {
+btnNormal.onclick = ()=> {
     body.classList.remove ("lectura");
     document.querySelector("image").classList.remove = "lecturaImg"
 }
